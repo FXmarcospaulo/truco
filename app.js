@@ -9,4 +9,4 @@ var readlineSync = require('readline-sync');
   var favFood = readlineSync.question('What is your favorite food? ', {
     hideEchoBack: true // The typed text on screen is hidden by `*` (default).
     });
-    console.log('Oh, ' + userName + ' loves ' + favFood + '!');
+    console.log('Oh, ' + userName + ' loves ' + favFood + '!'); 
